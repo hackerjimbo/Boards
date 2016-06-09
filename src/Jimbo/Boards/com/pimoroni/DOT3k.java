@@ -20,7 +20,6 @@ package Jimbo.Boards.com.pimoroni;
 
 import java.io.IOException;
 
-//import com.pi4j.io.i2c.I2CBus;
 import com.pi4j.io.gpio.RaspiPin;
 import com.pi4j.io.gpio.GpioFactory;
 import com.pi4j.io.gpio.GpioController;
@@ -164,6 +163,5 @@ public class DOT3k {
             System.out.println ("Meanwhile in thread " + Thread.currentThread().getName());
             System.out.println ("Event " + e.getEventType() + " on pin " +e.getPin() + " new state " + e.getState());
         }
-        
     }
 }
